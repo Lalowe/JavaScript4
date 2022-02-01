@@ -5,10 +5,12 @@ var bg = document.getElementById("body");
 
 
 function randomColor() {
-    color1 = Math.floor(Math.random() * 256);
-    color2 = Math.floor(Math.random() * 256);
-    color3 = Math.floor(Math.random() * 256);
-    bg.style.background = `rgb(${color1}, ${color2}, ${color3})`;
+    var rgb = [];
+    for (let i = 0; i < 3; i++) {
+        color = Math.floor(Math.random() * 256);
+        rgb.push(color);
+    }
+    bg.style.background = `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
 
 }
 
