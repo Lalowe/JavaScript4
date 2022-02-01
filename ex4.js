@@ -1,6 +1,3 @@
-var color1 = "";
-var color2 = "";
-var color3 = "";
 var bg = document.getElementById("body");
 
 
