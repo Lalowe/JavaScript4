@@ -1,7 +1,7 @@
 var player1 = prompt("Tel us your name, player1?");
 var player2 = prompt("Tel us your name, player2?");
-var number1 = "";
-var number2 = "";
+var number1 = ""; // declare variable outside of function sometimes help
+var number2 = ""; //
 
 document.getElementById("player1").innerHTML = player1;
 document.getElementById("player2").innerHTML = player2;
