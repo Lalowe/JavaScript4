@@ -14,5 +14,8 @@ function extractValue() {
     element3.innerHTML = input3.value
     if (input1.value.length > 5) { // .value have to be there ,always ask when ,where
         element1.style.color = "red";
+
+    } else {
+        element1.style.color = "green";
     }
 }
